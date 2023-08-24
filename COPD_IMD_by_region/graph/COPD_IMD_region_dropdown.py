@@ -4,7 +4,7 @@ import scipy.stats as stats
 import matplotlib.pyplot as plt
 from ipywidgets import widgets, interact
 
-COPD_df_base = pd.read_csv(r"https://github.com/Bobbert2121/NHSEgraphs/main/COPD_IMD_by_region/")
+COPD_df_base = pd.read_csv(r"https://github.com/Bobbert2121/NHSEgraphs/main/COPD_IMD_by_region/CC19_IMDRankBreakdown_COPD_Prevalance.csv?raw=true")
 
 COPD_df_base["Colour"] = COPD_df_base["Region"].replace(COPD_df_base.Region.unique(),["red","orange","yellow","green","cyan","blue","violet"])
 Region = widgets.Dropdown(options = ["England","All Regions except London and Midlands"]+ list(COPD_df_base["Region"].unique()), description = "Region:",)
