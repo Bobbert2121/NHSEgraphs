@@ -24,3 +24,4 @@
 
 These variables were weighted according to the methodology guide, and each CCG could then be treated as a 11- dimensional vector with these weighted variables as elements.
 The closest 10 CCGs to a given CCG by euclidean distance in this phase space were the 10 most similar CCGs.
+This code was created for the purpose of being used in an open-access dashboard, and for adaptation into pandas on spark for use with the Pyspark API on Databricks
