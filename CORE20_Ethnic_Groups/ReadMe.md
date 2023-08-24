@@ -8,5 +8,4 @@ Finally, the fourth bar graph compares the proportion of the population belongin
 The graphs show that the most deprived areas of England have a higher ethnic minority population, as well as a higher proportion of their population being ethnic minority.
 
 Source: 2021 Census (Census 2021 Bulk - Nomis - Official Census and Labour Market Statistics (nomisweb.co.uk) and IMD19 scores and rankings by LSOA11, which have been aggregated to LSOA21s where applicable. LSOA21s for which this was not possible have been omitted.   Less than 6% of LSOA21s were omitted for this reason.
-![image](https://github.com/Bobbert2121/NHSEgraphs/assets/119295701/738ec0d6-888a-4d4b-bb9f-9ba6d5e077f4)
 
