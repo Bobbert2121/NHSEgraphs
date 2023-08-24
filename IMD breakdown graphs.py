@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #Creation of DataFrames#
-IMD_df = pd.read_csv(r"IMD breakdown data.csv", low_memory = False).iloc[:,:65].dropna()
+IMD_df = pd.read_csv(r"https://github.com/Bobbert2121/NHSEgraphs/blob/main/IMD%20breakdown%20data.csv?raw=true", low_memory = False).iloc[:,:65].dropna()
 Domain_ranks = IMD_df.filter(like = "Rank").iloc[:,1:8]
 LSOA11_pops = pd.read_csv("C:\\Users\\LinnLu\\OneDrive - NHS England\\2021_Census_Data_LSOA\\LSOA IMD rankings\\LSOA_11_populations.csv")
 
