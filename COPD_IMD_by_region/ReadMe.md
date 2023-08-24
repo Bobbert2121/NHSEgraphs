@@ -1,4 +1,4 @@
-<title>Regional Breakdown of COPD prevalence against IMD and its domains by LSOA</title>
+<b>Regional Breakdown of COPD prevalence against IMD and its domains by LSOA</b>
 
 This figure has an interactive dropdown, allowing you to select a region of England to view.
 The first row of plots plot the CCG19s from the selected region(s) by COPD prevalence against population averaged rank of IMD and its constituent domains.
