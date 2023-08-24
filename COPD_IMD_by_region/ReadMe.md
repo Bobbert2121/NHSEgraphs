@@ -5,3 +5,6 @@ The first row of plots plot the CCG19s from the selected region(s) by box-cox-tr
 Below each graph of this row is printed is Pearson (R-squared) correlation coefficient as well as the p-score for this coefficient, calculated via linear regression.
 
 The last row of graphs shows the fitted vs. residual plots for the above graphs, allowing one to assess the suitability of the calculated linear line of best fit, as well identify anamolous geographies
+
+Sources:
+IMD19 CCG and COPD % prevalence data: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/834003/File_13_-_IoD2019_Clinical_Commissioning_Group__CCG__Summaries.xlsx
