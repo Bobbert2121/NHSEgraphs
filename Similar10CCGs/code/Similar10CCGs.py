@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from numpy import sqrt
 
 #Creates the a dataframe containing the raw data, and converts the comma seperated values in the total population column into integers#
-CCG_rawdata = pd.read_csv(r"https://github.com/Bobbert2121/NHSEgraphs/blob/main/Similar10CCGs/April2020_SimilarCCGData.csv?raw=true").dropna(axis = 1)
+CCG_rawdata = pd.read_csv(r"https://github.com/LinnHtatLu/NHSEgraphs/blob/main/Similar10CCGs/April2020_SimilarCCGData.csv?raw=true").dropna(axis = 1)
 CCG_rawdata["poptot"] = CCG_rawdata['poptot'].str.replace(',','').astype(float).astype(int)
 
 #Calculates the means, standard deviation and then the ceiling in order to cap any outliers later#
