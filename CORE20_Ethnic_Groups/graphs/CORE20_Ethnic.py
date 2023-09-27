@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 plt.rcParams['font.family'] = ["Arial"]
 
 #Import LSOA21 IMD scores and deciles, in order to create dataframe#
-LSOA21_IMD = pd.read_csv(r"https://github.com/Bobbert2121/NHSEgraphs/blob/main/CORE20_Ethnic_Groups/LSOA21_IMD.csv?raw=true")
+LSOA21_IMD = pd.read_csv(r"https://github.com/LinnHtatLu/NHSEgraphs/blob/main/CORE20_Ethnic_Groups/LSOA21_IMD.csv?raw=true")
 
 #Create DataFrame of Ethnic populations of LSOA21s#
 Ethnic_pop = pd.read_csv(r"https://github.com/Bobbert2121/NHSEgraphs/blob/main/CORE20_Ethnic_Groups/Ethnic_Group_LSOA_IMD_2021Census.csv?raw=true")
