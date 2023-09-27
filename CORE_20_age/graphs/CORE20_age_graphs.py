@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 from matplotlib.cm import get_cmap
 cmap = get_cmap("tab20")
 
-age_df = pd.read_csv(r"https://github.com/Bobbert2121/NHSEgraphs/blob/main/CORE_20_age/census2021-age-lsoa.csv?raw=true")
+age_df = pd.read_csv(r"https://github.com/LinnHtatLu/NHSEgraphs/blob/main/CORE_20_age/census2021-age-lsoa.csv?raw=true")
 age_df = age_df.drop(["date","geography"], axis = 1)
 
-LSOA21_IMD = pd.read_csv(r"https://github.com/Bobbert2121/NHSEgraphs/blob/main/CORE_20_age/LSOA21_IMD.csv?raw=true")
+LSOA21_IMD = pd.read_csv(r"https://github.com/LinnHtatLu/NHSEgraphs/blob/main/CORE_20_age/LSOA21_IMD.csv?raw=true")
 LSOA21_IMD = LSOA21_IMD.sort_values(by = "LSOA21 code")
 
 age_df = age_df.merge(LSOA21_IMD, how = 'inner', left_on = "geography code", right_on = "LSOA21 code").drop(["Unnamed: 0","LSOA21 code", "IMD score"], axis = 1)
