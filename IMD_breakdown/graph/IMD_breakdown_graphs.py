@@ -4,9 +4,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #Creation of DataFrames#
-IMD_df = pd.read_csv(r"https://github.com/Bobbert2121/NHSEgraphs/blob/main/IMD_breakdown/IMD%20breakdown%20data.csv?raw=true", low_memory = False).iloc[:,:65].dropna()
+IMD_df = pd.read_csv(r"https://github.com/LinnHtatLu/NHSEgraphs/blob/main/IMD_breakdown/IMD%20breakdown%20data.csv?raw=true", low_memory = False).iloc[:,:65].dropna()
 Domain_ranks = IMD_df.filter(like = "Rank").iloc[:,1:8]
-LSOA11_pops = pd.read_csv(r"https://github.com/Bobbert2121/NHSEgraphs/blob/main/IMD_breakdown/LSOA_11_populations.csv?raw=true")
+LSOA11_pops = pd.read_csv(r"https://github.com/LinnHtatLu/NHSEgraphs/blob/main/IMD_breakdown/LSOA_11_populations.csv?raw=true")
 
 ICB_lookup = IMD_df[["LSOA code (2011)", "ICB (2022) Name"]]
 IMD_score = IMD_df.filter(like = "(IMD) Score")
